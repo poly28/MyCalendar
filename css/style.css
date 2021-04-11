@@ -1,0 +1,58 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #eee;
+}
+
+thead {
+  background-color: #eee;
+}
+
+tbody td:first-child {
+  color: red;
+}
+
+tbody td:last-child {
+  color: blue;
+}
+
+tfoot {
+  background-color: #eee;
+}
+
+tfoot tr {
+  font-weight: bold;
+}
+
+th {
+  padding: 8px;
+  text-align: center;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+td.disabled {
+  opacity: 0.3;
+}
+
+td.today {
+  font-weight: bold;
+}
+
+#prev,
+#next,
+#today {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=style.css.map */
